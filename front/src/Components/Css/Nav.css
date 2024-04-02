@@ -1,0 +1,43 @@
+nav{
+    display: inline-flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: 10px;
+  }
+  
+  .Menu{
+    display: flex;
+    align-items: center;
+  }
+  
+  .Menu a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .Model{
+    display: inline-flex;
+  }
+  
+  .ModelDropdown {
+    position: relative;
+  }
+  
+  .DropdownContent {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #01547A;
+    min-width: 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .ModelDropdown:hover .DropdownContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  

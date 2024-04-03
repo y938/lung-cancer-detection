@@ -1,10 +1,15 @@
+@font-face {
+  font-family: 'Montserrat'; /* Give your font family a name */
+  src: url('C:/Users/achiy/OneDrive/Desktop/lung-cancer-detection/front/src/Components/Fonts/Montserrat-VariableFont_wght.ttf') format('truetype'); /* Path to your TTF font file */
+}
+
 *{
   margin: 0;
   padding: 0;
 }
 
 body {
+  color: white;
+  font-family: 'Montserrat', sans-serif; /* Use your custom font */
   background-color: #01547A;
-  
 }
-

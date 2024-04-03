@@ -11,7 +11,7 @@ function Nav(){
           </div>
           <div className="Menu">
             <div className="ModelDropdown">
-                  <Link className="Model">Model <img src={dropdown} width={24} height={24} alt="Dropdown"/></Link>
+                  <Link className="Model">Model <img src={dropdown} width={20} height={20} alt="Dropdown"/></Link>
                   <div className="DropdownContent">
                     <Link to="/lung">Lung</Link>
                   </div>

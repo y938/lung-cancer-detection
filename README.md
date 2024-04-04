@@ -1,2 +1,2 @@
 # lung-cancer-detection
-a system using machine learning model identify lung cancer
+a system using machine learning model to identify lung cancer

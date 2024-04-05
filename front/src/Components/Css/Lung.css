@@ -13,9 +13,9 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px dashed  black;
-    height: 300px;
-    width: 500px;
+    border: 2px dashed  white;
+    height: 150px;
+    width: 350px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -24,7 +24,7 @@ form{
 .last-row{
     display: flex;
     justify-content: space-between;
-    width: 33%;
+    width: 23%;
     height: 25px;
     margin: 10px 0;
     padding: 15px;
@@ -33,3 +33,7 @@ form{
     color: black;
 }
 
+
+.note{
+    margin: 15px;
+}

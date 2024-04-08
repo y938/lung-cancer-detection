@@ -4,46 +4,48 @@
 
 This document provides instructions on setting up and using the Lung Cancer Detection System, a web application that utilizes a deep learning model to analyze chest X-rays for potential lung cancer.
 
-# Important Disclaimer
+## Important Disclaimer
 
-# This software is provided for educational purposes only. The author is not responsible for any misuse of this system or the consequences of relying solely on its predictions for medical diagnosis.
+This software is provided for educational purposes only. The author is not responsible for any misuse of this system or the consequences of relying solely on its predictions for medical diagnosis.
 
-# while the provided model and Jupyter Notebook file functionally correct, due to using the free version of Google Colab to train, I couldn't achieve optimal accuracy. So, it's highly recommended to train the model again using a paid tier of Google Colab.
+While the provided model and Jupyter Notebook file functionally correct, due to using the free version of Google Colab to train, optimal accuracy couldn't be achieved. Therefore, it's highly recommended to train the model again using a paid tier of Google Colab.
 
-# Prerequisites:
+## Prerequisites
 
-. Python 3.12
-. Django Framework (https://www.djangoproject.com/)
-. TensorFlow library (https://www.tensorflow.org/)
-. OpenCV library (https://opencv.org/)
-. Axios library (for React application) (https://axios-http.com/)
-. Basic understanding of Django and React development
+- Python 3.12
+- Django Framework ([Django](https://www.djangoproject.com/))
+- TensorFlow library ([TensorFlow](https://www.tensorflow.org/))
+- OpenCV library ([OpenCV](https://opencv.org/))
+- Axios library (for React application) ([Axios](https://axios-http.com/))
+- Basic understanding of Django and React development
 
-# Setup Instructions:
+## Setup Instructions
 
-Clone the repository containing the Django and React code.
+1. **Clone the repository containing the Django and React code.**
 
-Install dependencies:
+2. **Install dependencies:**
 
-Navigate to the project directory in your terminal.
-Run pip install -r requirements.txt (Django dependencies)
-Install any additional React dependencies as needed (e.g., npm install axios).
+    - Navigate to the project directory in your terminal.
+    - Run `pip install -r requirements.txt` (Django dependencies).
+    - Install any additional React dependencies as needed (e.g., `npm install axios`).
 
-# Download the pre-trained model:
+3. **Download the pre-trained model:**
 
-The trained model (model2.h5) is not included in this repository due to size constraints.
-Access the model from the provided Google Drive link: https://drive.google.com/file/d/1srqILxGZqxfPYeJHVJcpIb2QCq8AIDb-/view?usp=sharing
-Place the downloaded model2.h5 file in your project directory.
+    - The trained model (`model2.h5`) is not included in this repository due to size constraints.
+    - Access the model from the provided Google Drive link: [model2.h5](https://drive.google.com/file/d/1srqILxGZqxfPYeJHVJcpIb2QCq8AIDb-/view?usp=sharing).
+    - Place the downloaded `model2.h5` file in your project directory.
 
-# Run Django development server: 
+4. **Run Django development server:**
 
-In your terminal, navigate to the project directory and run python manage.py runserver. This will start the Django development server.
-You can access the Django api endpoint (at http://127.0.0.1:8000/api/predict).
+    - In your terminal, navigate to the project directory and run `python manage.py runserver`. This will start the Django development server.
+    - You can access the Django API endpoint at [http://127.0.0.1:8000/api/predict](http://127.0.0.1:8000/api/predict).
 
-# React Application:
+## React Application
 
-React give a user interface  for uploading an image and displaying the prediction results.
+React provides a user interface for uploading an image and displaying the prediction results.
 
-# Usage:
+For configuration details, refer to the `README` file in the `front` folder.
 
-you can find how to configure react in the front folder readme file
+## Usage
+
+Follow the setup instructions above, and once the server is running, access the React application to upload images for prediction.

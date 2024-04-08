@@ -8,5 +8,7 @@
 2. Navigate to the front directory
 3. Run the following: npm install
 4. After the dependencies are installed, start the development server by running: npm start
+
+now you can access your React application in a web browser by going to http://localhost:3000/
    
 
